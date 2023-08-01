@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Text Summarizer</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Text Summarizer</h1>
+<form action="index.py" method="post">
+<input type="text" name="text" placeholder="Enter the text to be summarized">
+<input type="range" name="length" min="100" max="1000" value="500">
+<input type="submit" value="Summarize">
+</form>
+<div id="summary"></div>
+</body>
+</html>
